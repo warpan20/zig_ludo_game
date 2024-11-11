@@ -112,10 +112,10 @@ pub fn main() void {
         .dice_roll = 0,
     };
     
-    var counter: i32 = 0;
-    while (counter < 1000) {
+    //var counter: i32 = 0;
+    while (true) {
         
-        counter += 1;
+        //counter += 1;
         var current_player = &players[game_state.player_index];
 
         switch (game_state.phase) {
